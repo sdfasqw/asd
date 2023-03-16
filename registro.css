@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(https://images.unsplash.com/photo-1678791589088-f26ed2590a21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+	background-size:cover;
+	font-family:sans-serif;
+}
+.form-contact{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+    }
+
+    .form-contact input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.form-contact input[type="text"],
+.form-contact input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #319190;
+	background: transparent;
+	outline: none;
+	height: 40px;
+    color: #319190;
+    font-size: 16px;
+}
+
+.form-contact input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #ffefb5;
+	font-size: 16px;
+	background: #319190;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.form-contact input[type="submit"]:hover{
+background: #ffefb5;
+color: 	#319190;
+}
+
+label{
+	color: #ffefb5;
+	font-family: Century Gothic,absolute;
+}
